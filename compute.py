@@ -47,7 +47,7 @@ def compute_mean_std(filename=None):
         newList_err.append(float(myList[2][index]))
     err = newList_err
     print('error : ', err)
-    plt.plot(t, t, label="t plotted against t")
+    # plt.plot(t, t, label="t plotted against t")
     plt.plot(t, y, label='y plotted against t')
     plt.plot(t, err, label='error plotted against t')
     plt.xlabel('t label')
